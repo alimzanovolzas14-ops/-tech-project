@@ -1,0 +1,45 @@
+QADAM 2.0 — TECHNICAL VERIFICATION
+Date: 30 October 2026
+Environment: Windows; Python 3.12; local server at 127.0.0.1:8766.
+
+AUTOMATED CHECKS: 13 tests passed in 93.226 seconds.
+Command: python -m unittest discover -s full-app/tests -v
+
+Database checks (10):
+- Seed counts and authentication without exposing password hashes.
+- Incorrect password and revoked session rejected.
+- Registration creates students only; email uniqueness is case insensitive.
+- Student, employer and institution records are scoped.
+- Full workflow, 67% coverage, duplicate protection and immutable snapshots.
+- Cross-account application and vacancy access rejected.
+- Vacancy creation/closure and saved closed vacancy visibility/removal.
+- Profile role/institution changes ignored; unsafe portfolio schemes blocked.
+- Notification ownership and CSV scope.
+- Reinitialization preserves a registered account without reseeding.
+
+HTTP checks (3):
+- Host/origin/content-type/request-header guards; no unauthenticated private records or database/source downloads.
+- HttpOnly/SameSite cookies; application/offer/acceptance/confirmation; forbidden premature confirmation; scoped CSV; logout revokes session.
+- Registration, profile editing and employer-only vacancy creation; closed vacancies reject applications.
+
+Browser checks with an isolated QA database:
+- Student sign-in; search for Data Analyst; save vacancy; submit application.
+- Employer Aida sees that application and makes an offer.
+- Student Aruzhan accepts it; AITU coordinator Asem confirms it with a note.
+- Final record is Confirmed and contains the full history.
+- Employer publishes SQL Reporting Intern through the form, including Remote format.
+- Coordinator searches the student directory; only the matching AITU profile appears.
+- Notifications mark as read and the unread indicator clears.
+- Desktop layout at 1366px and narrow layout at 390px inspected. Narrow page content fits; navigation scrolls horizontally by design.
+- Screenshots in screenshots/*_v2.png are real captures of this fictional QA journey.
+
+Launcher and handoff:
+- Start-Qadam.ps1 -NoBrowser starts the real local application.
+- Stop-Qadam.ps1 stops its recorded process; a second start succeeds.
+- Clean handoff database verified: 18 users, 8 jobs, 12 applications, 0 active sessions before final preview sign-in.
+- JavaScript syntax check passed.
+- Independent review found one saved-closed-vacancy defect; regression check reproduced it, fix applied, all 13 tests passed afterward.
+- Report: 836 main-text words, 5 pages, visually inspected; no stale v1 launch instructions.
+
+BOUNDARY
+These are technical checks, not real participant observations, customer demand, partnerships or placements. Human usability alpha and external beta remain planned. All seeded identities, employers, vacancies and hiring outcomes are fictional.

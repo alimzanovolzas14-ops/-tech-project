@@ -1,0 +1,27 @@
+QADAM — ДЕМОНСТРАЦИОННЫЕ АККАУНТЫ
+Пароль всех аккаунтов: Qadam2026!
+Все профили вымышлены. Новые регистрации используют собственный пароль.
+
+СТУДЕНТЫ
+Aruzhan Saparova | aruzhan@qadam.demo | AITU
+Dias Nurpeisov | dias@qadam.demo | AITU
+Aigerim Tolegen | aigerim@qadam.demo | AITU
+Timur Aliev | timur@qadam.demo | AITU
+Dana Bekova | dana@qadam.demo | AITU
+Arman Zhan | arman@qadam.demo | AITU
+Madina Ospan | madina@qadam.demo | IITU
+Nurlan Serik | nurlan@qadam.demo | IITU
+Aliya Zhum | aliya@qadam.demo | IITU
+Sanzhar Omar | sanzhar@qadam.demo | IITU
+Kamila Esen | kamila@qadam.demo | IITU
+Ruslan Akhmet | ruslan@qadam.demo | IITU
+
+РАБОТОДАТЕЛИ
+Aida Karim | steppe@qadam.demo | Steppe Data
+Daniyar Askar | ornek@qadam.demo | Ornek Studio
+Saule Iman | testlab@qadam.demo | TestLab KZ
+Murat Bek | aral@qadam.demo | Aral Cloud
+
+КООРДИНАТОРЫ
+Asem Career | aitu@qadam.demo | AITU Career Centre
+Marat Career | iitu@qadam.demo | IITU Career Centre

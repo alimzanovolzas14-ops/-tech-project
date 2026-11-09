@@ -1,0 +1,70 @@
+QADAM MVP — USER TESTING WORKSHEET
+Status: blank protocol. No participant results have been collected.
+
+ALPHA USABILITY: proposed sample = 3 classmates, after technical checks.
+Use fictional names/data. Explain that participation is voluntary and no actual application is sent.
+Ask each participant, without coaching:
+1. Create a sample profile and find the best-matching internship.
+2. Explain what the percentage means and identify one missing skill.
+3. Apply and find the application status.
+4. Follow the demonstration through employer offer, student acceptance and university confirmation.
+Log completion, seconds, errors, help requested, and participant wording.
+Do not count technical automation as a human participant.
+
+PRIVATE BETA: planned recruitment = 10 students + 2 employer representatives + 1 coordinator.
+Run a supervised, permissioned pilot after recruitment and readiness checks.
+For the current local application, give each participant a separate fictional student account or a fresh extracted workspace. Complete the role journey through the appropriate prepared employer and coordinator accounts. This tests usability only; it is not evidence of real placements.
+An operational concierge pilot needs consent, secure shared records, verified vacancies and staff support before real data is used.
+Prepare two equivalent small candidate sets for each employer. One is reviewed with the current process, the other with explanations. Reverse order across the two employers. Use the same decision rubric and record time and interview-worthy share for each condition. Do not compare unrelated workloads.
+
+PROPOSED DECISION GATES — NOT RESULTS
+- Interpretation: correct percentage meaning AND missing-skill answer, at least 80% of tested students (8/10 if all ten complete).
+- Employer review: at least 20% reduction in median seconds, with no lower interview-worthy share on equivalent tasks. Report individual times, denominators and the tiny sample limitation.
+- Coordination: zero unresolved discrepancies between the event log and final status counts.
+- All blocking alpha defects fixed before external pilot.
+- If targets fail, revise and retest or narrow/stop the feature.
+
+PARTICIPANT RECORD (duplicate this block for each real participant)
+Participant code:
+Role:
+Date / setting / browser:
+Permission to participate confirmed:
+Tasks attempted:
+Completed without help (count / total):
+Task time (seconds):
+Percentage interpretation (correct / incorrect, actual wording):
+Missing skill identified (yes / no, answer):
+Errors / help requested:
+Observation / optional quote:
+Suggested change:
+
+EMPLOYER COMPARISON RECORD
+Participant code:
+Candidate set size and equivalence rationale:
+Task order:
+Baseline time (seconds):
+Prototype time (seconds):
+Baseline interview-worthy candidates / reviewed candidates:
+Prototype interview-worthy candidates / reviewed candidates:
+Explanation errors and disagreements:
+
+COORDINATOR RECORD
+Expected application history:
+Observed final statuses:
+Expected counts:
+Observed counts:
+Discrepancies:
+Resolution:
+
+FINAL RESULTS TO ADD TO THE REPORT AFTER TESTING
+Actual sample sizes by role:
+Actual dates:
+Completion numerator / denominator:
+Interpretation numerator / denominator:
+Median review time, baseline and prototype:
+Interview-worthy share per condition:
+Unresolved status discrepancies:
+Defects found:
+Changes made:
+Retest result:
+Decision and limitations:

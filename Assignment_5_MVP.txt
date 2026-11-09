@@ -1,0 +1,43 @@
+ASSIGNMENT 5: CREATING YOUR MVP
+AI Internship Matching Platform for Kazakhstan
+Group members: Beisenov Aisultan; Alimzhanov Olzhas; Zhaksylyk Nurdaulet
+Lecturer: Mohamed Ibrahim
+30 October 2026
+
+Qadam is a prototype of our AI Internship Matching Platform for Kazakhstan. It targets IT students seeking their first internship, employers recruiting junior talent, and university career coordinators. Assignment 4 supports a narrow, explainable workflow rather than competing on vacancy volume (Beisenov, Alimzhanov and Zhaksylyk, 2026). The problem hypothesis is that students struggle to judge fit while employers and coordinators lack consistent evidence and status information. Earlier constructed scenarios are not real customer interviews.
+
+The Lean Startup (n.d.) treats an MVP as an experiment supporting build-measure-learn, so our first release tests explanation usefulness before investing in sophisticated AI. Agile Business Consortium (2026) distinguishes essential requirements from desirable features through MoSCoW. Government Digital Service (n.d.-a; n.d.-b) connects alpha with testing risky assumptions and private beta with limited real-user feedback. Together, these approaches favour a small, testable workflow; none establishes demand for our particular platform.
+
+The student begins unsure which vacancy fits. A short profile and project note lead to ranked opportunities, matched/missing skills and an application. The employer inspects the submitted evidence and makes a decision. The student accepts or declines an offer; a coordinator confirms an accepted placement. Rejection remains visible. Separate statuses prevent an offer from being counted as a completed placement.
+
+MoSCoW priorities apply to the first supervised MVP pilot; the prototype demonstrates the central interactions.
+
+The local application contains twelve fictional student accounts, four employers, two university coordinators, eight vacancies and twelve seeded applications. It implements registration, authenticated sessions, persistent SQLite storage, profile editing, explained skill coverage, bookmarks, vacancy management, applications, notifications, history and institutional CSV export. Server-side checks restrict records to the relevant student, employer or university. Coverage is matched required skills divided by all required skills, rounded to a percentage: two of three equals 67%. Skills and project notes are self-reported and require human review. This is a rule-based baseline, not trained AI or a hiring probability.
+
+The proposed operational MVP remains a supervised concierge pilot, recruiting ten students, two employer representatives and one coordinator at one willing university; no partnership is claimed. Staff verify requirements and evidence. Consent, secure deployment and operational account management are prerequisites for real personal data. The delivered application runs on one computer and uses fictional demonstration data; its eighteen seeded accounts are not customer traction.
+
+We propose Lean Startup experimentation with a simple Kanban board: Backlog, Doing, Review and Done. Limit work in progress to two tasks; review usability feedback daily. Cycle one validates the profile-to-application flow; cycle two addresses employer decisions and placement tracking. A feature is done when its acceptance checks pass and its explanation is understandable. A fixed scope and short feedback cycles suit a three-person student team better than building a complete marketplace. Students remain free; employer payment and institutional purchasing are later hypotheses.
+
+Technical alpha verification completed during preparation: thirteen automated tests passed across database and HTTP operations, covering authentication, registration, ownership, duplicates, submission snapshots, valid/invalid status changes, persistence and request protection. A browser walkthrough completed application, employer offer, student acceptance and coordinator confirmation across separate accounts. Vacancy creation, search, bookmarking and responsive layouts were checked. These are technical checks, not interviews or demand evidence. Team-led usability alpha remains to be conducted: observe three classmates using fictional profiles, record errors, and fix blocking issues before external beta.
+
+Private beta is planned, not completed. Invite the pilot participants after recruitment and readiness checks. Ask students to find a relevant role, explain one missing skill and submit an application. Employers compare equivalent candidate-review tasks with and without explanations, with task order alternated. Record task completion, interpretation errors, review time, interview-worthy decisions and status discrepancies. Proposed gates are at least 80% correct interpretation, 20% lower median review time without a lower interview-worthy share, and zero unresolved placement-status discrepancies. Report counts and denominators; a small pilot is exploratory. Revise explanations if comprehension fails; narrow or stop the feature if it adds no value.
+
+On Windows, open START_QADAM.cmd, then http://127.0.0.1:8766. Choose Aruzhan Saparova and apply to Data Analyst Intern. Switch account to Aida Karim / Steppe Data to make an offer; return to Aruzhan to accept it, then use Asem Career / AITU to confirm placement with a note. The demo password is Qadam2026!. Screenshots show the implemented application. The testing worksheet remains blank for genuine participant observations; beta outcomes have not been invented.
+Must have | Profile, project note, role requirements, explainable matches, application and distinct decision/status steps. | Tests the complete value proposition.
+Should have | Search, filters, persistent accounts, CSV export and in-app updates. | Reduces effort; manual alternatives exist.
+Could have | Bookmarks (included), reminders and Kazakh/Russian interface. | Useful after the core flow is understood.
+Won’t have now | Trained AI, CV parsing, payments, chat, mobile app, university-system integrations. | Adds cost before value is validated.
+Student | Profile → match explanation → apply → accept/decline | Understand fit and the next action.
+Employer | Submitted skills + project note → offer/reject | Inspect evidence before deciding.
+University | Accepted offer → verify → confirm | Reconcile a genuine placement.
+
+REFERENCES
+Agile Business Consortium (2026). What is MoSCoW Prioritization? 28 May. https://www.agilebusiness.org/resource/what-is-moscow-prioritization/
+
+Beisenov, A., Alimzhanov, O. and Zhaksylyk, N. (2026). Assignment 4: Competition. AI Internship Matching Platform for Kazakhstan. AITU, unpublished coursework, 22 October.
+
+Government Digital Service (n.d.-a). How the alpha phase works. https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works
+
+Government Digital Service (n.d.-b). How the beta phase works. https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works
+
+The Lean Startup (n.d.). Methodology. https://theleanstartup.com/principles
